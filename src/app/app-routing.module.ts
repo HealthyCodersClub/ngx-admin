@@ -11,6 +11,7 @@ import {
 
 const routes: Routes = [
   { path: 'pages', loadChildren: 'app/pages/pages.module#PagesModule' },
+  { path: 'features', loadChildren : 'app/features/features.module#FeaturesModule'},
   {
     path: 'auth',
     component: NbAuthComponent,
@@ -41,8 +42,8 @@ const routes: Routes = [
       },
     ],
   },
-  { path: '', redirectTo: 'pages', pathMatch: 'full' },
-  { path: '**', redirectTo: 'pages' },
+  { path: '', redirectTo: 'features', pathMatch: 'full' },
+  { path: '**', redirectTo: 'features' },
 ];
 
 const config: ExtraOptions = {
