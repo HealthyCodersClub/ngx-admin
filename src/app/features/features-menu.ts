@@ -14,23 +14,23 @@ export const MENU_ITEMS: NbMenuItem[] = [
   {
     title: 'Booking',
     icon: 'nb-compose',
-    link: '/pages/ui-features',
+    link: '/features/booking',
     children: [
       {
         title: 'Arraival',
-        link: '/pages/ui-features/buttons',
+        link: '/features/booking/arraival',
       },
       {
         title: 'Cancellation',
-        link: '/pages/ui-features/grid',
+        link: '/features/booking/cancellation',
       },
       {
         title: 'Manage Booking',
-        link: '/pages/ui-features/icons',
+        link: '/features/booking/manage-booking',
       },
       {
         title: 'Submit Booking',
-        link: '/pages/ui-features/modals',
+        link: '/features/booking/submit-booking',
       },
     ],
   },
@@ -40,11 +40,11 @@ export const MENU_ITEMS: NbMenuItem[] = [
     children: [
       {
         title: 'Short Term',
-        link: '/pages/forms/inputs',
+        link: '/features/availability/short-term',
       },
       {
         title: 'Long Term',
-        link: '/pages/forms/layouts',
+        link: '/features/availability/long-term',
       },
     ],
   },
@@ -54,22 +54,22 @@ export const MENU_ITEMS: NbMenuItem[] = [
     children: [
       {
         title: 'Add Room',
-        link: '/pages/components/tree',
+        link: '/features/rooms/add-room',
       }, {
         title: 'Edit Room',
-        link: '/pages/components/notifications',
+        link: '/features/rooms/edit-room',
       }, {
         title: 'Manage Room Rates',
-        link: '/pages/components/notifications',
+        link: '/features/rooms/manage-rates',
       }, {
         title: 'Manage Daily Rates',
-        link: '/pages/components/notifications',
+        link: '/features/rooms/daily-rates',
       }, {
         title: 'Minimum Nights',
-        link: '/pages/components/notifications',
+        link: '/features/rooms/min-night',
       }, {
         title: 'Maximum Nights',
-        link: '/pages/components/notifications',
+        link: '/features/rooms/max-night',
       },
     ],
   }, {
@@ -99,11 +99,11 @@ export const MENU_ITEMS: NbMenuItem[] = [
     children: [
       {
         title: 'Manage Inventory',
-        link: '/pages/maps/gmaps',
+        link: '/features/revenue/inventory',
       },
       {
         title: 'Yield Management',
-        link: '/pages/maps/leaflet',
+        link: '/features/revenue/yield',
       },
     ],
   },
@@ -113,51 +113,51 @@ export const MENU_ITEMS: NbMenuItem[] = [
     children: [
       {
         title: 'Microsite Content',
-        link: '/pages/charts/echarts',
+        link: '/features/setup/microsite',
       },
       {
         title: 'Plot Category',
-        link: '/pages/charts/chartjs',
+        link: '/features/setup/plot-category',
       },
       {
         title: 'Plot Location',
-        link: '/pages/charts/d3',
+        link: '/features/setup/plot-location',
       },
       {
         title: 'GST Configuration',
-        link: '/pages/charts/d3',
+        link: '/features/setup/tax',
       },
       {
         title: 'Settings',
-        link: '/pages/charts/d3',
+        link: '/features/setup/settings',
       },
       {
         title: 'Contact Details',
-        link: '/pages/charts/d3',
+        link: '/features/setup/contact',
       },
       {
         title: 'Extra',
-        link: '/pages/charts/d3',
+        link: '/features/setup/extra',
       },
       {
         title: 'Coupon Management',
-        link: '/pages/charts/d3',
+        link: '/features/setup/coupons',
       },
       {
         title: 'Branding',
-        link: '/pages/charts/d3',
+        link: '/features/setup/branding',
       },
       {
         title: 'Translation',
-        link: '/pages/charts/d3',
+        link: '/features/setup/translation',
       },
       {
         title: 'SEO',
-        link: '/pages/charts/d3',
+        link: '/features/setup/seo',
       },
       {
         title: 'Channel Manager List',
-        link: '/pages/charts/d3',
+        link: '/features/setup/channel-manager',
       },
     ],
   },
@@ -167,29 +167,30 @@ export const MENU_ITEMS: NbMenuItem[] = [
     children: [
       {
         title: 'Booking Analysis',
-        link: '/pages/editors/tinymce',
+        link: '/features/reports/booking',
       },
       {
         title: 'Customer Analysis',
-        link: '/pages/editors/ckeditor',
+        link: '/features/reports/customer-analysis',
       },
       {
         title: 'Availability Analysis',
-        link: '/pages/editors/ckeditor',
+        link: '/features/reports/availability',
       },
       {
         title: 'Customer Ratings',
-        link: '/pages/editors/ckeditor',
+        link: '/features/reports/customer-ratings',
       },
       {
         title: 'Sales Analysis',
-        link: '/pages/editors/ckeditor',
+        link: '/features/reports/sales',
       },
     ],
   },
   {
     title: 'Channel Manager',
     icon: 'fa fa-globe',
+    link : '/features/channel-manager',
   },
   {
     title: 'Account',
@@ -197,27 +198,28 @@ export const MENU_ITEMS: NbMenuItem[] = [
     children: [
       {
         title: 'My Account',
-        link: '/auth/login',
+        link: '/features/user/my-account',
       },
       {
         title: 'Manage Users',
-        link: '/auth/register',
+        link: '/features/user/manage-users',
       },
       {
         title: 'Billing History',
-        link: '/auth/request-password',
+        link: '/features/user/billing-history',
       },
       {
         title: 'Credit Update',
-        link: '/auth/reset-password',
+        link: '/features/user/credit-update',
       },
       {
         title: 'Membership information',
-        link: '/auth/reset-password',
+        link: '/features/user/membership',
       },
     ],
   }, {
     title: 'Sign Out',
     icon: 'ion-log-out',
+    link : '/logout',
   },
 ];
