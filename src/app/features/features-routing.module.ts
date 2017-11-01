@@ -16,6 +16,9 @@ const routes: Routes = [{
         path : 'availability',
         loadChildren : './availability/availability.module#AvailabilityModule',
     }, {
+        path : 'email',
+        loadChildren : './email/email.module#EmailModule',
+    }, {
         path : 'rooms',
         loadChildren : './rooms/rooms.module#RoomsModule',
     }, {
