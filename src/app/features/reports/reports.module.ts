@@ -14,6 +14,13 @@ import { SalesAnalysisComponent } from './sales-analysis/sales-analysis.componen
     CommonModule,
     ReportsRoutingModule,
   ],
-  declarations: [ReportsComponent, BookingAnalysisComponent, CustomerAnalysisComponent, AvailabilityAnalysisComponent, CustomerRatingsComponent, SalesAnalysisComponent],
+  declarations: [
+    ReportsComponent,
+    BookingAnalysisComponent,
+    CustomerAnalysisComponent,
+    AvailabilityAnalysisComponent,
+    CustomerRatingsComponent,
+    SalesAnalysisComponent,
+  ],
 })
 export class ReportsModule { }

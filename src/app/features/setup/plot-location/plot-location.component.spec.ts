@@ -8,7 +8,7 @@ describe('PlotLocationComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PlotLocationComponent ]
+      declarations: [ PlotLocationComponent ],
     })
     .compileComponents();
   }));

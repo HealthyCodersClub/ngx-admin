@@ -31,7 +31,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
       {
         title: 'Submit Booking',
         link: '/pages/ui-features/modals',
-      }
+      },
     ],
   },
   {
@@ -72,28 +72,28 @@ export const MENU_ITEMS: NbMenuItem[] = [
         link: '/pages/components/notifications',
       },
     ],
-  },{
+  }, {
     title: 'Email',
     icon: 'nb-email',
     children : [
       {
         title : 'Inbox',
-        link : '/features/email/inbox'
+        link : '/features/email/inbox',
       }, {
         title : 'Draft',
-        link : '/features/email/draft'
+        link : '/features/email/draft',
       }, {
         title : 'Sent',
-        link : '/features/email/sent'
+        link : '/features/email/sent',
       }, {
         title: 'Trash',
-        link : '/features/email/trash'
+        link : '/features/email/trash',
       }, {
         title: 'Junk',
-        link : '/features/email/junk'
-      }
-    ]
-  },{
+        link : '/features/email/junk',
+      },
+    ],
+  }, {
     title: 'Revenue Management',
     icon: 'ion-social-usd',
     children: [
@@ -104,7 +104,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
       {
         title: 'Yield Management',
         link: '/pages/maps/leaflet',
-      }
+      },
     ],
   },
   {
@@ -189,7 +189,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
   },
   {
     title: 'Channel Manager',
-    icon: 'fa fa-globe'
+    icon: 'fa fa-globe',
   },
   {
     title: 'Account',
@@ -218,6 +218,6 @@ export const MENU_ITEMS: NbMenuItem[] = [
     ],
   }, {
     title: 'Sign Out',
-    icon: 'ion-log-out'
+    icon: 'ion-log-out',
   },
 ];

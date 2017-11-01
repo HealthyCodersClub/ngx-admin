@@ -8,7 +8,7 @@ describe('MicrositeContentComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MicrositeContentComponent ]
+      declarations: [ MicrositeContentComponent ],
     })
     .compileComponents();
   }));

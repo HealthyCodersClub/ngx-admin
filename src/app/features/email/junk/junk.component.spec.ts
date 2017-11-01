@@ -8,7 +8,7 @@ describe('JunkComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ JunkComponent ]
+      declarations: [ JunkComponent ],
     })
     .compileComponents();
   }));

@@ -8,7 +8,7 @@ describe('SalesAnalysisComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SalesAnalysisComponent ]
+      declarations: [ SalesAnalysisComponent ],
     })
     .compileComponents();
   }));

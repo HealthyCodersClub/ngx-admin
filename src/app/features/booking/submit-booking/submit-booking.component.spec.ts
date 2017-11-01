@@ -8,7 +8,7 @@ describe('SubmitBookingComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SubmitBookingComponent ]
+      declarations: [ SubmitBookingComponent ],
     })
     .compileComponents();
   }));

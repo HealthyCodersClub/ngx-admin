@@ -14,6 +14,13 @@ import { MembershipComponent } from './membership/membership.component';
     CommonModule,
     UserRoutingModule,
   ],
-  declarations: [UserComponent, MyAccountComponent, ManageUsersComponent, BillingHistoryComponent, CreditUpdateComponent, MembershipComponent],
+  declarations: [
+    UserComponent,
+    MyAccountComponent,
+    ManageUsersComponent,
+    BillingHistoryComponent,
+    CreditUpdateComponent,
+    MembershipComponent,
+  ],
 })
 export class UserModule { }

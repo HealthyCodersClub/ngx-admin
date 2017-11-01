@@ -8,7 +8,7 @@ describe('TaxComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ TaxComponent ]
+      declarations: [ TaxComponent ],
     })
     .compileComponents();
   }));

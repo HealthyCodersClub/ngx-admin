@@ -8,7 +8,7 @@ describe('ManageRatesComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ManageRatesComponent ]
+      declarations: [ ManageRatesComponent ],
     })
     .compileComponents();
   }));

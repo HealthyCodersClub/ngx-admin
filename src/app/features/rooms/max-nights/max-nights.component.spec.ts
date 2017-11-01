@@ -8,7 +8,7 @@ describe('MaxNightsComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ MaxNightsComponent ]
+      declarations: [ MaxNightsComponent ],
     })
     .compileComponents();
   }));

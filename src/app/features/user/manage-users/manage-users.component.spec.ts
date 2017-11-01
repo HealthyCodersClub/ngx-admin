@@ -8,7 +8,7 @@ describe('ManageUsersComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ManageUsersComponent ]
+      declarations: [ ManageUsersComponent ],
     })
     .compileComponents();
   }));

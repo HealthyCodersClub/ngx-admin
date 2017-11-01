@@ -12,8 +12,8 @@ import { EmailComponent } from './email.component';
 @NgModule({
   imports: [
     CommonModule,
-    EmailRoutingModule
+    EmailRoutingModule,
   ],
-  declarations: [InboxComponent, DraftComponent, SentComponent, JunkComponent, TrashComponent, EmailComponent]
+  declarations: [InboxComponent, DraftComponent, SentComponent, JunkComponent, TrashComponent, EmailComponent],
 })
 export class EmailModule { }

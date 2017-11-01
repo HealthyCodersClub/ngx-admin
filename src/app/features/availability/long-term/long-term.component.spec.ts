@@ -8,7 +8,7 @@ describe('LongTermComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ LongTermComponent ]
+      declarations: [ LongTermComponent ],
     })
     .compileComponents();
   }));

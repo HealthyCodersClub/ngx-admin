@@ -8,7 +8,7 @@ describe('BillingHistoryComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ BillingHistoryComponent ]
+      declarations: [ BillingHistoryComponent ],
     })
     .compileComponents();
   }));

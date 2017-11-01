@@ -16,6 +16,15 @@ import { ExtraComponent } from './extra/extra.component';
     CommonModule,
     SetupRoutingModule,
   ],
-  declarations: [SetupComponent, MicrositeContentComponent, PlotCategoryComponent, PlotLocationComponent, TaxComponent, SettingsComponent, ContactComponent, ExtraComponent],
+  declarations: [
+    SetupComponent,
+    MicrositeContentComponent,
+    PlotCategoryComponent,
+    PlotLocationComponent,
+    TaxComponent,
+    SettingsComponent,
+    ContactComponent,
+    ExtraComponent,
+  ],
 })
 export class SetupModule { }

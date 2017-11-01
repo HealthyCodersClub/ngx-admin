@@ -15,6 +15,14 @@ import { MaxNightsComponent } from './max-nights/max-nights.component';
     CommonModule,
     RoomsRoutingModule,
   ],
-  declarations: [RoomsComponent, AddRoomComponent, EditRoomComponent, ManageRatesComponent, DailyRatesComponent, MinNightsComponent, MaxNightsComponent],
+  declarations: [
+    RoomsComponent,
+    AddRoomComponent,
+    EditRoomComponent,
+    ManageRatesComponent,
+    DailyRatesComponent,
+    MinNightsComponent,
+    MaxNightsComponent,
+  ],
 })
 export class RoomsModule { }

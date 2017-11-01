@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'ngx-my-account',
   templateUrl: './my-account.component.html',
-  styleUrls: ['./my-account.component.scss']
+  styleUrls: ['./my-account.component.scss'],
 })
 export class MyAccountComponent implements OnInit {
 

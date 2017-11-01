@@ -8,7 +8,7 @@ describe('PlotCategoryComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ PlotCategoryComponent ]
+      declarations: [ PlotCategoryComponent ],
     })
     .compileComponents();
   }));

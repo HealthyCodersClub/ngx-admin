@@ -8,7 +8,7 @@ describe('ShortTermComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ShortTermComponent ]
+      declarations: [ ShortTermComponent ],
     })
     .compileComponents();
   }));
