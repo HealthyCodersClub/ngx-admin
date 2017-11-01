@@ -7,8 +7,8 @@ import { SetupComponent } from './setup.component';
 @NgModule({
   imports: [
     CommonModule,
-    SetupRoutingModule
+    SetupRoutingModule,
   ],
-  declarations: [SetupComponent]
+  declarations: [SetupComponent],
 })
 export class SetupModule { }

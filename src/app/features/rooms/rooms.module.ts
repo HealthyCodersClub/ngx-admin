@@ -7,8 +7,8 @@ import { RoomsComponent } from './rooms.component';
 @NgModule({
   imports: [
     CommonModule,
-    RoomsRoutingModule
+    RoomsRoutingModule,
   ],
-  declarations: [RoomsComponent]
+  declarations: [RoomsComponent],
 })
 export class RoomsModule { }

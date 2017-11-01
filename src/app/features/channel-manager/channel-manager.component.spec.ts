@@ -8,7 +8,7 @@ describe('ChannelManagerComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ChannelManagerComponent ]
+      declarations: [ ChannelManagerComponent ],
     })
     .compileComponents();
   }));

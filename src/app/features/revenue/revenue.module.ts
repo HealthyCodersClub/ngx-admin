@@ -7,8 +7,8 @@ import { RevenueComponent } from './revenue.component';
 @NgModule({
   imports: [
     CommonModule,
-    RevenueRoutingModule
+    RevenueRoutingModule,
   ],
-  declarations: [RevenueComponent]
+  declarations: [RevenueComponent],
 })
 export class RevenueModule { }

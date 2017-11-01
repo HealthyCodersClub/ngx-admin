@@ -7,8 +7,8 @@ import { ChannelManagerComponent } from './channel-manager.component';
 @NgModule({
   imports: [
     CommonModule,
-    ChannelManagerRoutingModule
+    ChannelManagerRoutingModule,
   ],
-  declarations: [ChannelManagerComponent]
+  declarations: [ChannelManagerComponent],
 })
 export class ChannelManagerModule { }

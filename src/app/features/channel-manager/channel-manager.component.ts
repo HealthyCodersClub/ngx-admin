@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-channel-manager',
+  selector: 'ngx-channel-manager',
   templateUrl: './channel-manager.component.html',
-  styleUrls: ['./channel-manager.component.scss']
+  styleUrls: ['./channel-manager.component.scss'],
 })
 export class ChannelManagerComponent implements OnInit {
 

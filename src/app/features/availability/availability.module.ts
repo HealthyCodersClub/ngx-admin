@@ -7,8 +7,10 @@ import { AvailabilityComponent } from './availability.component';
 @NgModule({
   imports: [
     CommonModule,
-    AvailabilityRoutingModule
+    AvailabilityRoutingModule,
   ],
-  declarations: [AvailabilityComponent]
+  declarations: [AvailabilityComponent],
 })
-export class AvailabilityModule { }
+export class AvailabilityModule {
+
+}
