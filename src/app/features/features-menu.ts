@@ -2,157 +2,222 @@ import { NbMenuItem } from '@nebular/theme';
 
 export const MENU_ITEMS: NbMenuItem[] = [
   {
-    title: 'Dashboard',
+    title: 'Home',
     icon: 'nb-home',
-    link: '/pages/dashboard',
+    link: '/features/home',
     home: true,
   },
-  {
+  /* {
     title: 'FEATURES',
     group: true,
-  },
+  },*/
   {
-    title: 'UI Features',
-    icon: 'nb-keypad',
+    title: 'Booking',
+    icon: 'nb-compose',
     link: '/pages/ui-features',
     children: [
       {
-        title: 'Buttons',
+        title: 'Arraival',
         link: '/pages/ui-features/buttons',
       },
       {
-        title: 'Grid',
+        title: 'Cancellation',
         link: '/pages/ui-features/grid',
       },
       {
-        title: 'Icons',
+        title: 'Manage Booking',
         link: '/pages/ui-features/icons',
       },
       {
-        title: 'Modals',
+        title: 'Submit Booking',
         link: '/pages/ui-features/modals',
-      },
-      {
-        title: 'Typography',
-        link: '/pages/ui-features/typography',
-      },
-      {
-        title: 'Animated Searches',
-        link: '/pages/ui-features/search-fields',
-      },
-      {
-        title: 'Tabs',
-        link: '/pages/ui-features/tabs',
-      },
+      }
     ],
   },
   {
-    title: 'Forms',
-    icon: 'nb-compose',
+    title: 'Availability',
+    icon: 'nb-layout-default',
     children: [
       {
-        title: 'Form Inputs',
+        title: 'Short Term',
         link: '/pages/forms/inputs',
       },
       {
-        title: 'Form Layouts',
+        title: 'Long Term',
         link: '/pages/forms/layouts',
       },
     ],
   },
   {
-    title: 'Components',
-    icon: 'nb-gear',
+    title: 'Rooms Rate',
+    icon: 'fa fa-bed',
     children: [
       {
-        title: 'Tree',
+        title: 'Add Room',
         link: '/pages/components/tree',
       }, {
-        title: 'Notifications',
+        title: 'Edit Room',
+        link: '/pages/components/notifications',
+      }, {
+        title: 'Manage Room Rates',
+        link: '/pages/components/notifications',
+      }, {
+        title: 'Manage Daily Rates',
+        link: '/pages/components/notifications',
+      }, {
+        title: 'Minimum Nights',
+        link: '/pages/components/notifications',
+      }, {
+        title: 'Maximum Nights',
         link: '/pages/components/notifications',
       },
     ],
-  },
-  {
-    title: 'Maps',
-    icon: 'nb-location',
+  },{
+    title: 'Email',
+    icon: 'nb-email',
+    children : [
+      {
+        title : 'Inbox',
+        link : '/features/email/inbox'
+      }, {
+        title : 'Draft',
+        link : '/features/email/draft'
+      }, {
+        title : 'Sent',
+        link : '/features/email/sent'
+      }, {
+        title: 'Trash',
+        link : '/features/email/trash'
+      }, {
+        title: 'Junk',
+        link : '/features/email/junk'
+      }
+    ]
+  },{
+    title: 'Revenue Management',
+    icon: 'ion-social-usd',
     children: [
       {
-        title: 'Google Maps',
+        title: 'Manage Inventory',
         link: '/pages/maps/gmaps',
       },
       {
-        title: 'Leaflet Maps',
+        title: 'Yield Management',
         link: '/pages/maps/leaflet',
-      },
-      {
-        title: 'Bubble Maps',
-        link: '/pages/maps/bubble',
-      },
+      }
     ],
   },
   {
-    title: 'Charts',
-    icon: 'nb-bar-chart',
+    title: 'Property Setup',
+    icon: 'nb-gear',
     children: [
       {
-        title: 'Echarts',
+        title: 'Microsite Content',
         link: '/pages/charts/echarts',
       },
       {
-        title: 'Charts.js',
+        title: 'Plot Category',
         link: '/pages/charts/chartjs',
       },
       {
-        title: 'D3',
+        title: 'Plot Location',
+        link: '/pages/charts/d3',
+      },
+      {
+        title: 'GST Configuration',
+        link: '/pages/charts/d3',
+      },
+      {
+        title: 'Settings',
+        link: '/pages/charts/d3',
+      },
+      {
+        title: 'Contact Details',
+        link: '/pages/charts/d3',
+      },
+      {
+        title: 'Extra',
+        link: '/pages/charts/d3',
+      },
+      {
+        title: 'Coupon Management',
+        link: '/pages/charts/d3',
+      },
+      {
+        title: 'Branding',
+        link: '/pages/charts/d3',
+      },
+      {
+        title: 'Translation',
+        link: '/pages/charts/d3',
+      },
+      {
+        title: 'SEO',
+        link: '/pages/charts/d3',
+      },
+      {
+        title: 'Channel Manager List',
         link: '/pages/charts/d3',
       },
     ],
   },
   {
-    title: 'Editors',
-    icon: 'nb-title',
+    title: 'Reports',
+    icon: 'nb-bar-chart',
     children: [
       {
-        title: 'TinyMCE',
+        title: 'Booking Analysis',
         link: '/pages/editors/tinymce',
       },
       {
-        title: 'CKEditor',
+        title: 'Customer Analysis',
+        link: '/pages/editors/ckeditor',
+      },
+      {
+        title: 'Availability Analysis',
+        link: '/pages/editors/ckeditor',
+      },
+      {
+        title: 'Customer Ratings',
+        link: '/pages/editors/ckeditor',
+      },
+      {
+        title: 'Sales Analysis',
         link: '/pages/editors/ckeditor',
       },
     ],
   },
   {
-    title: 'Tables',
-    icon: 'nb-tables',
-    children: [
-      {
-        title: 'Smart Table',
-        link: '/pages/tables/smart-table',
-      },
-    ],
+    title: 'Channel Manager',
+    icon: 'fa fa-globe'
   },
   {
-    title: 'Auth',
+    title: 'Account',
     icon: 'nb-locked',
     children: [
       {
-        title: 'Login',
+        title: 'My Account',
         link: '/auth/login',
       },
       {
-        title: 'Register',
+        title: 'Manage Users',
         link: '/auth/register',
       },
       {
-        title: 'Request Password',
+        title: 'Billing History',
         link: '/auth/request-password',
       },
       {
-        title: 'Reset Password',
+        title: 'Credit Update',
+        link: '/auth/reset-password',
+      },
+      {
+        title: 'Membership information',
         link: '/auth/reset-password',
       },
     ],
+  }, {
+    title: 'Sign Out',
+    icon: 'ion-log-out'
   },
 ];
