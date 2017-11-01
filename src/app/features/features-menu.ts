@@ -17,8 +17,8 @@ export const MENU_ITEMS: NbMenuItem[] = [
     link: '/features/booking',
     children: [
       {
-        title: 'Arraival',
-        link: '/features/booking/arraival',
+        title: 'Arrival',
+        link: '/features/booking/arrival',
       },
       {
         title: 'Cancellation',

@@ -13,6 +13,12 @@ import { SubmitBookingComponent } from './submit-booking/submit-booking.componen
     CommonModule,
     BookingRoutingModule,
   ],
-  declarations: [BookingComponent, ArrivalComponent, CancellationComponent, ManageBookingComponent, SubmitBookingComponent],
+  declarations: [
+    BookingComponent,
+    ArrivalComponent,
+    CancellationComponent,
+    ManageBookingComponent,
+    SubmitBookingComponent,
+  ],
 })
 export class BookingModule { }
