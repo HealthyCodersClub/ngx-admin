@@ -15,6 +15,7 @@ import { BrandingComponent } from './branding/branding.component';
 import { TranslationComponent } from './translation/translation.component';
 import { SeoComponent } from './seo/seo.component';
 import { ChannelManagerComponent } from './channel-manager/channel-manager.component';
+import { SetupService } from './setup.service';
 
 @NgModule({
   imports: [
@@ -36,5 +37,6 @@ import { ChannelManagerComponent } from './channel-manager/channel-manager.compo
     SeoComponent,
     ChannelManagerComponent,
   ],
+  providers: [SetupService],
 })
 export class SetupModule { }

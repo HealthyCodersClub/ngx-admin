@@ -220,6 +220,6 @@ export const MENU_ITEMS: NbMenuItem[] = [
   }, {
     title: 'Sign Out',
     icon: 'ion-log-out',
-    link : '/logout',
+    link : '/auth/login',
   },
 ];

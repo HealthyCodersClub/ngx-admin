@@ -7,6 +7,7 @@ import { ArrivalComponent } from './arrival/arrival.component';
 import { CancellationComponent } from './cancellation/cancellation.component';
 import { ManageBookingComponent } from './manage-booking/manage-booking.component';
 import { SubmitBookingComponent } from './submit-booking/submit-booking.component';
+import { BookingService } from './booking.service';
 
 @NgModule({
   imports: [
@@ -20,5 +21,6 @@ import { SubmitBookingComponent } from './submit-booking/submit-booking.componen
     ManageBookingComponent,
     SubmitBookingComponent,
   ],
+  providers: [BookingService],
 })
 export class BookingModule { }

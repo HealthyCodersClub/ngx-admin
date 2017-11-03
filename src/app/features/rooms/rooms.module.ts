@@ -9,6 +9,7 @@ import { ManageRatesComponent } from './manage-rates/manage-rates.component';
 import { DailyRatesComponent } from './daily-rates/daily-rates.component';
 import { MinNightsComponent } from './min-nights/min-nights.component';
 import { MaxNightsComponent } from './max-nights/max-nights.component';
+import { RoomsService } from './rooms.service';
 
 @NgModule({
   imports: [
@@ -24,5 +25,6 @@ import { MaxNightsComponent } from './max-nights/max-nights.component';
     MinNightsComponent,
     MaxNightsComponent,
   ],
+  providers: [RoomsService],
 })
 export class RoomsModule { }

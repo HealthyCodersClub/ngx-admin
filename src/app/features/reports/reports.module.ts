@@ -8,6 +8,7 @@ import { CustomerAnalysisComponent } from './customer-analysis/customer-analysis
 import { AvailabilityAnalysisComponent } from './availability-analysis/availability-analysis.component';
 import { CustomerRatingsComponent } from './customer-ratings/customer-ratings.component';
 import { SalesAnalysisComponent } from './sales-analysis/sales-analysis.component';
+import { ReportsService } from './reports.service';
 
 @NgModule({
   imports: [
@@ -22,5 +23,6 @@ import { SalesAnalysisComponent } from './sales-analysis/sales-analysis.componen
     CustomerRatingsComponent,
     SalesAnalysisComponent,
   ],
+  providers: [ReportsService],
 })
 export class ReportsModule { }

@@ -5,6 +5,7 @@ import { RevenueRoutingModule } from './revenue-routing.module';
 import { RevenueComponent } from './revenue.component';
 import { InventoryComponent } from './inventory/inventory.component';
 import { YieldComponent } from './yield/yield.component';
+import { RevenueService } from './revenue.service';
 
 @NgModule({
   imports: [
@@ -12,5 +13,6 @@ import { YieldComponent } from './yield/yield.component';
     RevenueRoutingModule,
   ],
   declarations: [RevenueComponent, InventoryComponent, YieldComponent],
+  providers: [RevenueService],
 })
 export class RevenueModule { }

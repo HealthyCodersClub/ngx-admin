@@ -8,6 +8,7 @@ import { SentComponent } from './sent/sent.component';
 import { JunkComponent } from './junk/junk.component';
 import { TrashComponent } from './trash/trash.component';
 import { EmailComponent } from './email.component';
+import { EmailService } from './email.service';
 
 @NgModule({
   imports: [
@@ -15,5 +16,6 @@ import { EmailComponent } from './email.component';
     EmailRoutingModule,
   ],
   declarations: [InboxComponent, DraftComponent, SentComponent, JunkComponent, TrashComponent, EmailComponent],
+  providers: [EmailService],
 })
 export class EmailModule { }
