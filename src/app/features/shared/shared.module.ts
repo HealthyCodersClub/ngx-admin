@@ -4,9 +4,9 @@ import { SharedService } from './shared.service';
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
   ],
   declarations: [],
-  providers: [SharedService]
+  providers: [SharedService],
 })
 export class SharedModule { }

@@ -5,7 +5,7 @@ import { EmailService } from './email.service';
 describe('EmailService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [EmailService]
+      providers: [EmailService],
     });
   });
 

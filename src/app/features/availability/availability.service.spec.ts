@@ -5,7 +5,7 @@ import { AvailabilityService } from './availability.service';
 describe('AvailabilityService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [AvailabilityService]
+      providers: [AvailabilityService],
     });
   });
 

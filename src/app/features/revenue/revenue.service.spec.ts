@@ -5,7 +5,7 @@ import { RevenueService } from './revenue.service';
 describe('RevenueService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [RevenueService]
+      providers: [RevenueService],
     });
   });
 

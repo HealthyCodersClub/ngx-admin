@@ -5,7 +5,7 @@ import { ChannelManagerService } from './channel-manager.service';
 describe('ChannelManagerService', () => {
   beforeEach(() => {
     TestBed.configureTestingModule({
-      providers: [ChannelManagerService]
+      providers: [ChannelManagerService],
     });
   });
 
