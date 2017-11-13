@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./arrival.component.scss'],
 })
 export class ArrivalComponent implements OnInit {
-
+  model;
   constructor() { }
 
   ngOnInit() {

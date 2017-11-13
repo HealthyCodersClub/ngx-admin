@@ -1,3 +1,23 @@
-<p>
-  arrival works!
-</p>
+<div class="row">
+  <div class="col-lg-12">
+    <nb-card>
+      <nb-card-header>Arrival</nb-card-header>
+      <nb-card-body>
+        <form>
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <ngx-date-picker fieldName="From Date"></ngx-date-picker>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <ngx-date-picker fieldName="To Date"></ngx-date-picker>
+            </div>
+          </div>
+          <ngx-named-panel panelTitle="Arriving Today">
+            
+          </ngx-named-panel>
+          <ngx-named-panel panelTitle="Arriving Tomorrow"></ngx-named-panel>
+        </form>
+      </nb-card-body>
+    </nb-card>
+  </div>
+</div>

@@ -21,3 +21,7 @@ $nb-themes: nb-register-theme(
         font-main: Roboto,
         font-secondary: Exo
     ), cosmic, cosmic);
+
+.no-border{
+    border: none !important;
+}

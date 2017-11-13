@@ -8,11 +8,15 @@ import { CancellationComponent } from './cancellation/cancellation.component';
 import { ManageBookingComponent } from './manage-booking/manage-booking.component';
 import { SubmitBookingComponent } from './submit-booking/submit-booking.component';
 import { BookingService } from './booking.service';
+import { SharedModule } from '../shared/shared.module';
+import { ThemeModule } from '../../@theme/theme.module';
 
 @NgModule({
   imports: [
+    ThemeModule,
     CommonModule,
     BookingRoutingModule,
+    SharedModule
   ],
   declarations: [
     BookingComponent,
