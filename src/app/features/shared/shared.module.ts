@@ -13,7 +13,7 @@ import { FormsModule } from '@angular/forms';
     CommonModule,
     ThemeModule,
     ComponentLibModule,
-    NgbModule.forRoot()
+    NgbModule.forRoot(),
   ],
   declarations: [],
   providers: [SharedService],
@@ -21,7 +21,7 @@ import { FormsModule } from '@angular/forms';
     ThemeModule,
     FormsModule,
     ComponentLibModule,
-    NgbModule
-  ]
+    NgbModule,
+  ],
 })
 export class SharedModule { }

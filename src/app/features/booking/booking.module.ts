@@ -16,7 +16,7 @@ import { ThemeModule } from '../../@theme/theme.module';
     ThemeModule,
     CommonModule,
     BookingRoutingModule,
-    SharedModule
+    SharedModule,
   ],
   declarations: [
     BookingComponent,

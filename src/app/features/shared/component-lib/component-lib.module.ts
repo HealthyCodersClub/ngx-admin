@@ -12,9 +12,9 @@ const components = [DatePickerComponent, NamedPanelComponent];
   imports: [
     FormsModule,
     NgbModule,
-    CommonModule, 
+    CommonModule,
   ],
   declarations: [ ...components],
-  exports: [...components]
+  exports: [...components],
 })
 export class ComponentLibModule { }
