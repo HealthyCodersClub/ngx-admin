@@ -81,4 +81,8 @@ export class BookingService {
     return [];
   }
 
+  getCancelledBookings(): Booking[] {
+    return [];
+  }
+
 }

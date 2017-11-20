@@ -1,3 +1,23 @@
-<p>
-  cancellation works!
-</p>
+<div class="row">
+  <div class="col-lg-12">
+    <nb-card>
+      <nb-card-header>Cancellation</nb-card-header>
+      <nb-card-body>
+        <form>
+          <div class="row">
+            <div class="col-md-6 col-sm-12">
+              <ngx-date-picker fieldName="From Date"></ngx-date-picker>
+            </div>
+            <div class="col-md-6 col-sm-12">
+              <ngx-date-picker fieldName="To Date"></ngx-date-picker>
+            </div>
+          </div>
+        </form>
+        <ngx-named-panel panelTitle="Cancellations This Week">
+          <ng2-smart-table [settings]="settings" [source]="cancelledBookingsSource" (deleteConfirm)="onDeleteConfirm($event)">
+          </ng2-smart-table>
+        </ngx-named-panel>
+      </nb-card-body>
+    </nb-card>
+  </div>
+</div>

@@ -31,6 +31,7 @@ export class ArrivalComponent implements OnInit {
       reservationNumber: {
         title: 'Reservation No',
         type: 'string',
+        editable: false,
       },
       name: {
         title: 'Name',
