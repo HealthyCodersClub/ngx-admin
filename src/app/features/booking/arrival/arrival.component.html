@@ -13,9 +13,13 @@
             </div>
           </div>
           <ngx-named-panel panelTitle="Arriving Today">
-            
+            <ng2-smart-table [settings]="settings" [source]="arrivingTodaySource" (deleteConfirm)="onDeleteConfirm($event)">
+            </ng2-smart-table>
           </ngx-named-panel>
-          <ngx-named-panel panelTitle="Arriving Tomorrow"></ngx-named-panel>
+          <ngx-named-panel panelTitle="Arriving Tomorrow">
+            <ng2-smart-table [settings]="settings" [source]="arrivingTomorrowSource" (deleteConfirm)="onDeleteConfirm($event)">
+            </ng2-smart-table>
+          </ngx-named-panel>
         </form>
       </nb-card-body>
     </nb-card>

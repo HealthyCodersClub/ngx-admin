@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { Ng2SmartTableModule } from 'ng2-smart-table';
 
 import { BookingRoutingModule } from './booking-routing.module';
 import { BookingComponent } from './booking.component';
@@ -17,6 +18,7 @@ import { ThemeModule } from '../../@theme/theme.module';
     CommonModule,
     BookingRoutingModule,
     SharedModule,
+    Ng2SmartTableModule,
   ],
   declarations: [
     BookingComponent,
